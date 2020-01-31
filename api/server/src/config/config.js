@@ -1,26 +1,28 @@
-module.exports = {
+
+module.exports=
+{
   "development": {
     "username": "postgres",
     "password": null,
-    "database": "",
+    "database": "bq",
     "host": "db",
     "dialect": "postgres",
-    // "operatorsAliases": false
+    "operatorsAliases": false
   },
   "test": {
-    "username": "postgres",
+    "username": "root",
     "password": null,
-    "database": "new_store_test",
+    "database": "database_test",
     "host": "db",
     "dialect": "postgres",
-    // "operatorsAliases": false
+    "operatorsAliases": false
   },
   "production": {
-    "username": "postgres",
+    "username": "root",
     "password": null,
-    "database": "new_store_production",
+    "database": "database_production",
     "host": "db",
     "dialect": "postgres",
-    // "operatorsAliases": false
+    "operatorsAliases": false
   }
 }
